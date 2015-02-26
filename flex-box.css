@@ -17,6 +17,12 @@
 }
 
 .col-c {
-	-webkit-flex: 3;
+	-webkit-flex: 2;
 	-webkit-order: -1;
+}
+
+@media screen and (max-width: 999px) {
+	.main {
+		-webkit-flex-direction: column;
+	}
 }
