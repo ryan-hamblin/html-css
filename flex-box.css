@@ -1,0 +1,16 @@
+
+.nav {
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+
+}
+
+.nav li:first-child {
+	margin-right: auto;
+}
+
+.nav li:last-child {
+	margin-left: auto;
+}
