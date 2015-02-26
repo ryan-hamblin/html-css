@@ -1,16 +1,22 @@
-
-.nav {
+.nav, .main {
 	display: -webkit-flex;
+}
+.nav {
 	-webkit-flex-direction: row;
 	-webkit-justify-content: space-between;
 	-webkit-flex-wrap: wrap;
 
 }
 
-.nav li:first-child {
-	margin-right: auto;
+.nav li {
+	-webkit-flex-grow: 1;
 }
 
-.nav li:last-child {
-	margin-left: auto;
+.col {
+	-webkit-flex: 1;
+}
+
+.col-c {
+	-webkit-flex: 3;
+	-webkit-order: -1;
 }
